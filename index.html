@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kids Cars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Kids Cars Collection</h1>
+    <p>Fun, Safe & Colorful Cars for Kids</p>
+</header>
+
+<section class="gallery">
+    <img src="https://via.placeholder.com/300x200?text=Car+1" onclick="openLightbox(this)">
+    <img src="https://via.placeholder.com/300x200?text=Car+2" onclick="openLightbox(this)">
+    <img src="https://via.placeholder.com/300x200?text=Car+3" onclick="openLightbox(this)">
+    <img src="https://via.placeholder.com/300x200?text=Car+4" onclick="openLightbox(this)">
+</section>
+
+<!-- Lightbox Modal -->
+<div id="lightbox" onclick="closeLightbox()">
+    <span class="close">&times;</span>
+    <img id="lightbox-img">
+</div>
+
+<footer>
+    <p>© 2026 Kids Cars | Designed by Nida</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
